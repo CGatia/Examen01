@@ -1,0 +1,197 @@
+/* Reset básico */
+body, h1, h2, p, ul, li, nav, footer, header, section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilo del encabezado */
+header {
+    background: #256b30;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Estilo de la navegación */
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo de la sección de información */
+#home {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#home h1 {
+    margin-bottom: 20px;
+}
+
+#home p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.responsive-img {
+    max-width: 50%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background: #256b30;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+/* Estilo de la sección de inicio de sesión */
+#login {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 400px;
+}
+
+#login h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #256b30;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #1f5930;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login h2 {
+    margin-bottom: 10px;
+}
+
+.social-login button {
+    background: #3b5998; /* Facebook Blue */
+    margin: 5px 0;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 1em;
+}
+
+.social-login button:hover {
+    background: #2d4373; /* Darker Facebook Blue */
+}
+
+.social-login button:nth-child(2) {
+    background: #db4437; /* Google Red */
+}
+
+.social-login button:nth-child(2):hover {
+    background: #c33d29; /* Darker Google Red */
+}
+
+.social-login button:nth-child(3) {
+    background: #0077b5; /* LinkedIn Blue */
+}
+
+.social-login button:nth-child(3):hover {
+    background: #005983; /* Darker LinkedIn Blue */
+}
+
+/* Estilo de la sección de puntos de reciclaje */
+#recycling-points {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#recycling-points h1 {
+    margin-bottom: 20px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    border-radius: 8px;
+}
